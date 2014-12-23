@@ -1,0 +1,20 @@
+ static void Main(string[] args)
+        {
+
+            Console.Write("First Number :");
+            int n1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Second Number :");
+            int n2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Third Number :");
+            int n3 = Convert.ToInt32(Console.ReadLine());
+            calculate(n1, n2, n3);
+            
+            Console.ReadKey();
+        }
+
+        static void calculate(double number1, double number2, double number3)
+        {
+
+            double result = (number1 + number2 + number3) / 3;
+            Console.WriteLine(result);
+        }
